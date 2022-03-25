@@ -37,7 +37,7 @@ function About(props) {
               <Col>
                 <Button
                   target="_blank"
-                  href="https://drive.google.com/file/d/1z-irlVJ1S4zXnfL0xLz3IPU7C9iZiia2/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1pznst9PHQ435Nlz4x7ehLayV5ei8I3Og/view"
                   className={styles.resumeButton}
                   variant={'outline-' + theme.bsSecondaryVariant}
                   size="lg"
