@@ -2,11 +2,10 @@ import React, { useContext } from "react";
 import { Container, Col, Image, Button } from "react-bootstrap";
 import Fade from "react-reveal";
 import Header from "./Header";
-// import profileImg from "../images/about/photo.jpeg";
 import styles from "../css/About.module.css";
 import { ThemeContext } from 'styled-components';
 
-function About(props) {
+function Contact(props) {
   const { header } = props;
   const theme = useContext(ThemeContext);
 
@@ -53,4 +52,4 @@ function About(props) {
   );
 }
 
-export default About;
+export default Contact;

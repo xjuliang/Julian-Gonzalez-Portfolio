@@ -15,7 +15,7 @@ const styles = {
     margin: 5,
   },
   cardStyle: {
-    borderRadius: 10,
+    borderRadius: 4,
   },
   cardTitleStyle: {
     fontSize: 24,
@@ -94,7 +94,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
-    links: PropTypes.arrayOf(PropTypes.object),
+    links: PropTypes.arrayOf(PropTypes),
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };

@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
-import endpoints from '../constants/endpoints';
 import Social from './Social';
-import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   nameStyle: {
@@ -21,36 +19,23 @@ const styles = {
   },
 };
 
-function Home() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch(endpoints.home, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
-
-  return data ? (
+export default function Home() {
+  return (
     <Fade>
       <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
+        <h1 style={styles.nameStyle}>Julian Gonzalez</h1>
         <div style={{ flexDirection: 'row' }}>
           <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
           <Typewriter
             options={{
               loop: true,
               autoStart: true,
-              strings: data?.roles,
+              strings: ['a Full-Stack Dev', 'a Computer Tech'],
             }}
           />
         </div>
         <Social />
       </div>
     </Fade>
-  ) : <FallbackSpinner />;
+  );
 }
-
-export default Home;
