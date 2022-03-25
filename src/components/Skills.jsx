@@ -1,6 +1,5 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import Fade from "react-reveal";
 import { Container } from "react-bootstrap";
 import Header from "./Header";
 
@@ -117,7 +116,7 @@ export default function Skills() {
     <>
       <Header title="Skills" />
       {
-        <Fade>
+        
           <div className="section-content-container">
             <Container style={styles.skillsContainer}>
               {renderSkillsIntro(skillsInfo.intro)}
@@ -139,7 +138,7 @@ export default function Skills() {
               ))}
             </Container>
           </div>
-        </Fade>
+        
       }
     </>
   );
