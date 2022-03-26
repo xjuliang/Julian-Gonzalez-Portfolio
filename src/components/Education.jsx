@@ -32,19 +32,22 @@ function Education(props) {
       {
         cardTitle: "Full-Stack Web Developer",
         cardSubtitle: "SoyHenry Bootcamp",
-        cardDetailedText: "Bootcamp, Jan 2022 - Apr 2022",
+        cardDetailedText: "Bootcamp, Jan - Apr 2022",
       },
       {
-        
+        cardTitle: "Software Developer",
+        cardSubtitle: "Aprendé Programando Academy",
+        cardDetailedText: "Programming Academy, 2019 - 2020 ",
+      },
+      {
         cardTitle: "Computer Technician",
         cardSubtitle: "T.S Admiral Brown n°36",
-        cardDetailedText: "Technical High School, Jan 2016 - Dec 2021",
+        cardDetailedText: "Technical High School, 2016 - 2021",
       },
       {
-        
         cardTitle: "First Certificate in English",
         cardSubtitle: "English Culture of Buenos Aires",
-        cardDetailedText: "English academy, Mar 2016 - Apr 2022 ",
+        cardDetailedText: "English academy, 2016 - 2022 ",
       },
     ],
   };

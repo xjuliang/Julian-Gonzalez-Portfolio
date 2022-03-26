@@ -70,10 +70,6 @@ export default function Skills() {
             title: "Express",
           },
           {
-            icon: "images/skills/mysql.png",
-            title: "MySQL",
-          },
-          {
             icon: "images/skills/sequelize.png",
             title: "Sequelize",
           },
