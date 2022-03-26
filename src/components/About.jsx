@@ -26,7 +26,7 @@ function About(props) {
               software development. So after that I signed up for a coding
               bootcamp, where I worked on several projects. I have some
               experience with the English language, which opens many doors for
-              me.  am currently looking for a job in the IT industry.
+              me. I am currently looking for a job in the IT industry.
               <Col className={styles.countryContainer}>
                 Country:{" "}
                 <Image
