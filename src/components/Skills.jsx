@@ -77,10 +77,6 @@ export default function Skills() {
             icon: "images/skills/postgresql.png",
             title: "PostgreSQL",
           },
-          {
-            icon: "images/skills/mongo-db.png",
-            title: "MongoDB",
-          },
         ],
       },
       {
