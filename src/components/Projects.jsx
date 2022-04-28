@@ -17,6 +17,32 @@ const Projects = (props) => {
   const { header } = props;
   const projectsData = [
     {
+      image: "images/projects/ecommerce.png",
+      title: "PcShop",
+      bodyText:
+        "- Ecommerce with login, admin panel, cart, checkout, orders history, reviews, questions & more.\n - First project I have done with a team of 7 people.\n- I took part of the Frontend team, and also helped with the Backend when it was required.",
+      links: [
+        {
+          text: "Code",
+          href: "https://github.com/nmacenco/Ecommerce-Project",
+        },
+        {
+          text: "Page",
+          href: "https://pcshop-ecommerce-project.vercel.app/products",
+        },
+      ],
+      tags: [
+        "React",
+        "TypeScript",
+        "Redux",
+        "NodeJs",
+        "Express",
+        "Sequelize",
+        "CSS",
+        "GIT"
+      ],
+    },
+    {
       image: "images/projects/recipes-project.png",
       title: "Recipes.com",
       bodyText:
@@ -31,14 +57,7 @@ const Projects = (props) => {
           href: "https://recipes-page-p07scdq0p-xjuliang.vercel.app/",
         },
       ],
-      tags: [
-        "React",
-        "Redux",
-        "NodeJs",
-        "Express",
-        "Sequelize",
-        "Heroku",
-      ],
+      tags: ["React", "Redux", "NodeJs", "Express", "Sequelize", "Heroku"],
     },
     {
       image: "images/projects/weather-page.png",
