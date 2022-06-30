@@ -28,7 +28,7 @@ const Projects = (props) => {
         },
         {
           text: "Page",
-          href: "https://pcshop-ecommerce-project.vercel.app/products",
+          href: "https://ecommerce-project-sigma.vercel.app/products",
         },
       ],
       tags: [
@@ -39,7 +39,7 @@ const Projects = (props) => {
         "Express",
         "Sequelize",
         "CSS",
-        "GIT"
+        "GIT",
       ],
     },
     {
@@ -58,6 +58,23 @@ const Projects = (props) => {
         },
       ],
       tags: ["React", "Redux", "NodeJs", "Express", "Sequelize", "Heroku"],
+    },
+    {
+      image: "images/projects/shoplist.png",
+      title: "ShopList",
+      bodyText:
+        "- Page that helps you with your shopping list.\n - You can login with your Google account.\n- Everything is connected to a database.",
+      links: [
+        {
+          text: "Code",
+          href: "https://github.com/xjuliang/shoplist",
+        },
+        {
+          text: "Page",
+          href: "https://shoplist-xi.vercel.app/home",
+        },
+      ],
+      tags: ["React", "TypeScript", "Firebase", "Express", "CSS"],
     },
     {
       image: "images/projects/weather-page.png",
